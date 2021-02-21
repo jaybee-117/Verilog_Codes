@@ -1,0 +1,176 @@
+$date
+	Fri Feb 19 20:45:51 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module t_mux $end
+$var wire 1 ! y $end
+$var reg 3 " a [2:0] $end
+$var reg 8 # data [7:0] $end
+$scope module Multiplexer_8_1 $end
+$var wire 1 $ a0 $end
+$var wire 1 % a1 $end
+$var wire 1 & a2 $end
+$var wire 8 ' data [7:0] $end
+$var wire 1 ( z7 $end
+$var wire 1 ) z6 $end
+$var wire 1 * z5 $end
+$var wire 1 + z4 $end
+$var wire 1 , z3 $end
+$var wire 1 - z2 $end
+$var wire 1 . z1 $end
+$var reg 1 ! y $end
+$scope module Mux_21_1 $end
+$var wire 1 / v0 $end
+$var wire 1 0 v1 $end
+$var wire 1 $ x $end
+$var reg 1 . z $end
+$upscope $end
+$scope module Mux_21_2 $end
+$var wire 1 1 v0 $end
+$var wire 1 2 v1 $end
+$var wire 1 $ x $end
+$var reg 1 - z $end
+$upscope $end
+$scope module Mux_21_3 $end
+$var wire 1 3 v0 $end
+$var wire 1 4 v1 $end
+$var wire 1 $ x $end
+$var reg 1 , z $end
+$upscope $end
+$scope module Mux_21_4 $end
+$var wire 1 5 v0 $end
+$var wire 1 6 v1 $end
+$var wire 1 $ x $end
+$var reg 1 + z $end
+$upscope $end
+$scope module Mux_21_5 $end
+$var wire 1 . v0 $end
+$var wire 1 - v1 $end
+$var wire 1 % x $end
+$var reg 1 * z $end
+$upscope $end
+$scope module Mux_21_6 $end
+$var wire 1 , v0 $end
+$var wire 1 + v1 $end
+$var wire 1 % x $end
+$var reg 1 ) z $end
+$upscope $end
+$scope module Mux_21_7 $end
+$var wire 1 * v0 $end
+$var wire 1 ) v1 $end
+$var wire 1 & x $end
+$var reg 1 ( z $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+16
+05
+14
+03
+02
+11
+00
+1/
+1.
+1-
+0,
+0+
+1*
+0)
+1(
+b10100101 '
+0&
+0%
+0$
+b10100101 #
+b0 "
+1!
+$end
+#1000
+0!
+0(
+0*
+1)
+0.
+0-
+1,
+1+
+1$
+b1 "
+#2000
+1!
+1(
+1*
+0)
+1.
+1-
+0,
+0+
+1%
+0$
+b10 "
+#3000
+0!
+0(
+0*
+1)
+0.
+0-
+1,
+1+
+1$
+b11 "
+#4000
+1*
+0)
+1.
+1-
+0,
+0+
+1&
+0%
+0$
+b100 "
+#5000
+1!
+1(
+0*
+1)
+0.
+0-
+1,
+1+
+1$
+b101 "
+#6000
+0!
+0(
+1*
+0)
+1.
+1-
+0,
+0+
+1%
+0$
+b110 "
+#7000
+1!
+1(
+0*
+1)
+0.
+0-
+1,
+1+
+1$
+b111 "
+#7990
