@@ -9,7 +9,7 @@ module Mux_21 (
        if (x == 0) begin
            z = v0;
        end
-       if (x == 1)begin
+       if (x == 1)begin    //feels redundant
            z = v1;
         end
     end
