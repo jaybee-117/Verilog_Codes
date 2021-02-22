@@ -19,7 +19,7 @@ module t_mux();
         data <= 8'b10100101;
 
         a <= 3'b000;
-        $monitor("%d, %b %b %b , %b", $time, a[2], a[1], a[0], y);
+        $monitor("%d, %b , %b", $time, a, y);
         #799;
 
         $finish;
