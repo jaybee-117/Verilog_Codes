@@ -1,0 +1,92 @@
+$date
+	Thu Feb 25 22:17:57 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module t_shift_left_rotate_left $end
+$var wire 8 ! sor [7:0] $end
+$var reg 1 " control $end
+$var reg 8 # data [7:0] $end
+$var reg 3 $ select [2:0] $end
+$scope module sl_1 $end
+$var wire 1 " control $end
+$var wire 8 % data [7:0] $end
+$var wire 3 & select [2:0] $end
+$var reg 8 ' barrel [7:0] $end
+$var reg 8 ( sor [7:0] $end
+$var integer 32 ) i [31:0] $end
+$var integer 32 * j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 *
+b0 )
+bx (
+b1001101 '
+b110 &
+b10100110 %
+b110 $
+b10100110 #
+0"
+bx !
+$end
+#10
+b10011010 '
+b0 )
+b10 *
+#20
+b110101 '
+b0 )
+b11 *
+#30
+b1101010 '
+b0 )
+b100 *
+#40
+b11010100 '
+b0 )
+b101 *
+#50
+b10101001 '
+b0 )
+b110 *
+#60
+b10000000 !
+b10000000 (
+b111 *
+#1000
+b0 )
+b1 *
+b1001101 '
+1"
+#1010
+b10011010 '
+b0 )
+b10 *
+#1020
+b110101 '
+b0 )
+b11 *
+#1030
+b1101010 '
+b0 )
+b100 *
+#1040
+b11010100 '
+b0 )
+b101 *
+#1050
+b10101001 '
+b0 )
+b110 *
+#1060
+b10101001 !
+b10101001 (
+b111 *
+#2000
