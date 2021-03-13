@@ -1,14 +1,18 @@
 `timescale 1ns/100ps
 
-module t_barrel_shifter();
+module t_shift_left_rotate_left();
     reg[7:0] data;
     wire[7:0] sor;
     reg[2:0] select;
+    
+    //control = 0: shift left; control = 1: rotate left/shift right
     reg control;
-    // shift left:
-    shift_left_right sl_1(.Input(data), .select(select),.control(control), .Output(sor));
+
+    //shifter/rotator
+    sor_left sl_1(.data(data), .select(select), .control(control), .sor(sor));
+
     initial begin
-        $dumpfile("shift_left_right.vcd");
+        $dumpfile("shift_rotate.vcd");
         $dumpvars();
 
         //data to be shifted/rotated
