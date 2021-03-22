@@ -14,7 +14,7 @@ module t_modulo3();
     initial begin
         $dumpfile("modulo3.vcd");
         $dumpvars();
-        $monitor("Time = %d Number = %b Divisible = %b",$time, number, divisible);
+        $monitor("Time = %d Number = %b (%d) Divisible = %b",$time, number, number, divisible);
         clk = 0;
         number = 8'b00000000; //0
         #200;
