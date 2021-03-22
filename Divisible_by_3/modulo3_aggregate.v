@@ -1,6 +1,5 @@
 module modulo3_aggregate(
     input wire[7:0] in,
-    input wire clk,
     output reg[7:0] out
 );
     reg a,A;
