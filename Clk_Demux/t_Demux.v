@@ -8,6 +8,7 @@ module t_Demux();
     initial begin
         $dumpfile("Demux.vcd");
         $dumpvars();
+        $monitor("Time = %d ns Select = %b Out3=%b Out2=%b Out1=%b Out0=%b", $time,select,out3,out2,out1,out0);
         inp = 1'b1;
         select = 2'b00;
         #5;
